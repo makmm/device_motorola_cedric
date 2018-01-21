@@ -14,15 +14,6 @@
  * limitations under the License.
  */
 
-#include <EGL/egl.h>
-#include <EGL/eglext.h>
-
 /* TODO: Actually provide implementations for these function! */
 
-extern "C" void _ZN7android20DisplayEventReceiverC1Ev() {}
-
-EGLAPI const char* eglQueryStringImplementationANDROID(EGLDisplay dpy, EGLint name);
-
-extern "C" void _Z35eglQueryStringImplementationANDROIDPvi(EGLDisplay dpy, EGLint name){
-    eglQueryStringImplementationANDROID(dpy, name);
-}
+void _ZN7android20DisplayEventReceiverC1Ev() {}
