@@ -167,8 +167,6 @@ lib/libcce-socketjni.so
 lib/libcom_fingerprints_service.so
 lib/libdmengine.so
 lib/libdmjavaplugin.so
-lib/libdtvhal.so
-lib/libdtvtuner.so
 lib/libfamily_photo.so
 lib/libfilterpack_facedetect.so
 lib/lib_fpc_tac_shared.so
